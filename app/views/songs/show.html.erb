@@ -1,0 +1,4 @@
+<h1> Song Show Page </h1>
+<%= @song.title %>
+
+<%= link_to 'Delete', song_path(@song), method: :delete, data: {confirm: "Are you sure?"} %>
