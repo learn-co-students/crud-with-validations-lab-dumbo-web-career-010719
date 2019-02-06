@@ -17,5 +17,4 @@
 <%= f.submit "Edit Song" %>
 <% end %>
 
-<%= link_to 'Just Delete', song_path(@song), method: :delete %> 
 <%= link_to 'Delete', @song, method: :delete, data: { confirm: 'For real?' } %>
